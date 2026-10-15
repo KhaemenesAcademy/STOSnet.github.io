@@ -1,7 +1,8 @@
-# STOSnet v0.3.0 Native Evidence Adapter Candidate
-STATUS: **SOURCE ONLY / SYNTHETIC / NOT COMMISSIONED**
-- Preserves the uploaded repository snapshot under `baseline-v0.2.0/`.
-- Adds C17 callback-based fail-closed policy interface and negative synthetic tests.
-- No real cryptographic evidence verification, TLS listener, device enrollment, revocation, Klik or storage adapter.
-- Tests prove interface behavior only, not provenance, independent authority, resistance to malicious adapters, or deployment safety.
-- No service installation, network activation, repository push, storage change or production modification.
+# STOSnet v0.4.0 — Native Transport & Device Identity Contract Candidate
+**SOURCE-ONLY · NOT COMMISSIONED · NO TLS SERVER · NO LISTENER**
+
+Preserves the v0.3.0 source candidate under `baseline-v0.3.0/`; adds `stosnet_transport_v4.h`, `stosnet_transport_v4.c`, a synthetic test harness, and a transport identity contract.
+
+The v0.4 C17 gate rejects absent/invalid trusted evidence, mismatched channel binding or audience, expired evidence, missing enrollment/revocation signals, and unavailable authority callback. All signals remain *unverified unless independently established by reviewed real integrations*. No security certification is claimed.
+
+No runtime dependencies beyond C17 libc for the new library. Compiler required to build tests. No services installed, no network ports opened, no STOS storage modified. Production HOLD.
