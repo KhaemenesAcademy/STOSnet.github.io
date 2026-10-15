@@ -1,7 +1,7 @@
-# STOSnet v0.2.0 — Native boundary candidate
-Status: SOURCE-ONLY / FAIL-CLOSED / NOT COMMISSIONED.
-Companion to unchanged STOSnet v0.1.0 design foundation.
-This package does NOT implement encryption, enrollment, network sockets, routing, or a VPN.
-It provides a dependency-free C17 policy gate and synthetic negative tests.
-Never connect it to live xkyoot, Buddy, Klik, Abby, or Gaffer without separately reviewed adapters and commissioning.
-No authoritative storage is implemented. No secrets or real user data are included.
+# STOSnet v0.3.0 Native Evidence Adapter Candidate
+STATUS: **SOURCE ONLY / SYNTHETIC / NOT COMMISSIONED**
+- Preserves the uploaded repository snapshot under `baseline-v0.2.0/`.
+- Adds C17 callback-based fail-closed policy interface and negative synthetic tests.
+- No real cryptographic evidence verification, TLS listener, device enrollment, revocation, Klik or storage adapter.
+- Tests prove interface behavior only, not provenance, independent authority, resistance to malicious adapters, or deployment safety.
+- No service installation, network activation, repository push, storage change or production modification.

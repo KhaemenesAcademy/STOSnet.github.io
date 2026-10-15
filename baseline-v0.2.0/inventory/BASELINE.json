@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-15",
+  "mac_lan_ipv4": "192.168.1.198",
+  "linux_lan_ipv4": "192.168.1.124",
+  "subnet": "192.168.1.0/24",
+  "gateway_bind": "127.0.0.1:9844",
+  "gateway_pid_after_crash": 776,
+  "gaffer_pid_after_crash": 740,
+  "mac_to_linux_ping": "3/3 received",
+  "stosnet_commissioned": false,
+  "external_storage_verified": false,
+  "linux_browser_access_verified": false,
+  "notes": "Historical audit snapshot, not live discovery. No credentials."
+}
